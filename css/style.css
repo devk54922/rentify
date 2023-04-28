@@ -1,0 +1,81 @@
+:root{
+    --font-family:'Poppins', sans-serif;
+}
+.find_box{
+    position: relative; 
+    top: 6rem;
+   width: 90%;
+   height: 20vh;
+   left: 5rem;   
+   border-radius: 5px;
+   background-color: rgb(245, 234, 218);
+   display: flex;
+}
+.boxes{
+    position: relative;
+    background-color: white;
+    width: 20rem;
+    height: 15vh;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxes select {
+    padding: 6px 25px;
+   outline: none;
+   border-radius: 5px;
+}
+.item-boxes{
+    width: 100%;
+    min-height:130vh;
+    position: relative;
+    top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.item-box{
+   position: relative;
+    top: 2rem;
+    left: 6rem;
+     outline: none;
+     border-radius: 5px;
+    width: 25rem;
+    height: 25rem;
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+    cursor: pointer;
+}
+.item-box:hover{
+    transform: translateZ(2);
+}
+.item-box img{
+    width: 25rem;
+    height: 18rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.item-box img:hover{
+    transform: scale(1.01,1.01 );
+    border-radius: 10px;
+    transition: .5s ease; ;
+
+}
+.item-box i{
+    position: relative;
+    left: 20px;
+    color: rgba(46, 60, 214, 0.779);
+}
+.item-box P,b{
+    font-family: var(--font-family);
+    margin-left: 5px;
+
+}
+.item-box span{
+    position:relative;
+    left: 20px;
+    font-family: var(--font-family);
+}
